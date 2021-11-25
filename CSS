@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/* everything/background */
+.calculator { 
+  background-color: black;
+  height: 620px;
+  width: 375px;
+    font-family: "Roboto";
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  
+}
+
+/* header{
+  height:150px;  
+} */
+.calculator-screen {
+  color:white;
+  background-color: black;
+  font-size: 70px;
+  border: none;
+  text-align: right;
+  verticle-align: bottom;
+  font-family: font-family: 'Roboto', sans-serif;
+  font-weight: 20;
+  margin-top:50px;
+/*   line-height:2.1; */
+  width: 360px;
+}
+
+
+
+button {
+  display: inline;
+  text-align:center;
+  float: center;
+  margin:5px;
+  margin-top:10px;
+  font-size: 35px;
+  height:80px;
+  width:80px;
+   border-radius: 50%;
+  text-decoration: none;
+  color: white;
+  background-color:#333333;
+  border: none;
+}
+
+button:hover {
+  background: white;
+  color: black ;
+}
+
+.all-clear {
+   background-color: #a6a6a6;
+  color: black;
+  margin:5px;
+  margin-top:10px;
+  font-size: 35px;
+  height:80px;
+  width:80px;
+   border-radius: 50%;
+  
+}
+
+
+.operator {
+  background-color: #a6a6a6;
+  color: black;
+  margin:5px;
+  margin-top:10px;
+  font-size: 35px;
+  height:80px;
+  width:80px;
+   border-radius: 50%;
+}
+
+.zero {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color:#333333;
+  border-radius: 42px;
+  font-size:40px;
+  margin:4px;
+  margin-top:10px;
+  height:80px;
+  width:175px;
+  line-height:2;
+  text-align:left;
+  margin:5px;
+  margin-top:10px;
+}
+
+.orange {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #ff9500;
+}
